@@ -7,8 +7,28 @@ body {
 /* the styles for the header */
 header img {
 	float: left;
+
 }
 
+.shadow {
+	text-shadow:2px 2px 4px #800000;
+
+}
+
+
+
+
+h2 {
+    font-size: 170%;
+	color:#800000;
+	text-indent: 30px;
+}
+
+h3 {
+	font-size: 130%;
+	font-weight: italic;
+	text-indent: 30px;
+}
 /* the styles for the main content */
 main {
 	clear: left;
@@ -16,12 +36,21 @@ main {
 main h1 {
 	font-size: 150%;
 }
-main h2 {
-	color: var(--global-color-1);
-	font-size: 130%;
+
+:root {
+    --global-color-1: #800000;
 }
+
 main h3 {
 	font-size: 105%;
 }
 
+a:hover {
+    color:#800000; 
+    font-style: italic; 
+}
+
 /* the styles for the footer */
+#footer {
+	margin:0 auto;
+}
